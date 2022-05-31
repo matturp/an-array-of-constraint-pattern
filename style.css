@@ -1,0 +1,29 @@
+html, body {
+  margin: 50;
+  padding: 0;
+  background-color: whitesmoke;
+}
+
+canvas {
+  display: block;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+
+@font-face {
+  font-family: handjet;
+  font-style: normal;
+  src: url('assets/HandjetVF-All.ttf');
+}
+
+p {
+  position: relative;
+  top: 0px;
+  left: 20px;
+  text-align: left;
+  font-family: handjet;
+  font-style: normal;
+  font-size: 16pt;
+}
