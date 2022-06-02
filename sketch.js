@@ -37,11 +37,11 @@ function setup() {
   ellipseMode(CORNER);
   noLoop();
 
-  cellsSlider = createSlider(2, 20, 2);
+    cellsSlider = createSlider(2, 20, 2);
   cellsSlider.position(width - 790, 25);
   cellsSlider.style(
     "-webkit-appearance: none;" +
-    "width: 10%;" +
+    "width: 150px;" +
     "height: 15px;" +
     "border-radius: 5px;" +
     "background: #d3d3d3;" +
@@ -52,10 +52,10 @@ function setup() {
   );
 
   curveSlider = createSlider(0, s, 0);
-  curveSlider.position(width - 620, 25);
+  curveSlider.position(width - 600, 25);
   curveSlider.style(
     "-webkit-appearance: none;" +
-    "width: 10%;" +
+    "width: 150px;" +
     "height: 15px;" +
     "border-radius: 5px;" +
     "background: #d3d3d3;" +
@@ -66,10 +66,10 @@ function setup() {
   );
 
   strokeSlider = createSlider(0, 5, 0);
-  strokeSlider.position(width - 450, 25);
+  strokeSlider.position(width - 420, 25);
   strokeSlider.style(
     "-webkit-appearance: none;" +
-    "width: 10%;" +
+    "width: 150px;" +
     "height: 15px;" +
     "border-radius: 5px;" +
     "background: #d3d3d3;" +
@@ -79,8 +79,8 @@ function setup() {
     "transition: opacity .2s;"
   );
 
-  paletteButton = createButton('Toggle Colour');
-  paletteButton.position(width - 265, 15);
+  paletteButton = createButton('Colour');
+  paletteButton.position(width - 210, 15);
   paletteButton.mousePressed(changePalette);
   paletteButton.style(
     "background-color: #4CAF50;" +
@@ -94,8 +94,8 @@ function setup() {
     "font-family: handjet;"
   );
 
-  clearButton = createButton('Toggle Background');
-  clearButton.position(width - 160, 15);
+  clearButton = createButton('Background');
+  clearButton.position(width - 130, 15);
   clearButton.mousePressed(changeTiles);
   clearButton.style(
     "background-color: #4CAF50;" +
